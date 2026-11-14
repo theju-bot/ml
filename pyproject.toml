@@ -6,10 +6,12 @@ readme = "README.md"
 authors = [
     { name = "Thesigan Yogarasa", email = "thesigany@gmail.com" }
 ]
-requires-python = ">=3.15"
+requires-python = ">=3.13,<3.15"
 dependencies = [
+    "catboost>=1.2.10",
     "jupyterlab>=4.6.5",
     "kagglehub>=1.0.3",
+    "lightgbm>=4.7.0",
     "matplotlib>=3.11.2",
     "numpy>=2.5.4",
     "pandas>=3.1.0",
