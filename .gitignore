@@ -14,3 +14,5 @@ wheels/
 examples/
 
 *.csv
+
+.ipynb_checkpoints/
